@@ -6,7 +6,7 @@
   * "algorithm", return false
   * "A man, a plan, a canal: Panama.", return true
   */
-
+// Question: https://leetcode.com/problems/valid-palindrome
 // Solutions
 #include <iostream>
 
@@ -30,7 +30,8 @@ int main() {
 
   bool flag = true;
   while(i < j){
-    if(str[i] >= 'a' && str[i] <= 'z' && str[j] >= 'a' && str[j] <= 'z'){
+    if((str[i] >= 'a' && str[i] <= 'z'  || str[i] >= '0' && str[i] <= '9')
+       && (str[j] >= 'a' && str[j] <= 'z'  || str[j] >= '0' && str[j] <= '9')){
       if(str[i] == str[j]){
         i++,j--;
         continue;
@@ -38,8 +39,8 @@ int main() {
       flag = false;
       break;
     }
-    if(!(str[i] >= 'a' && str[i] <= 'z')) i++;
-    if(!(str[j] >= 'a' && str[j] <= 'z')) j--;
+   if(!(str[i] >= 'a' && str[i] <= 'z' || str[i] >= '0' && str[i] <= '9' )) i++;
+   if(!(str[j] >= 'a' && str[j] <= 'z' || str[j] >= '0' && str[j] <= '9' )) j--;
   }
 
   if(flag)  cout << "True" << endl;
