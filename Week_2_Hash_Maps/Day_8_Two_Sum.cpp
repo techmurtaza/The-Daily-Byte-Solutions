@@ -10,9 +10,11 @@
   */
 // Question: https://leetcode.com/problems/two-sum/
 
-// Solution
+// Solution:
 
 #include <iostream>
+#include <unordered_map>
+#include <vector>
 
 using namespace std;
 
