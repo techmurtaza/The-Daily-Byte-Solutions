@@ -26,7 +26,10 @@ Here are my solutions to email problems sent by daily bytes in C++
 
 ### WEEK 3: Linked Lists
 
- 1. [Day_15_Merge_Two_Sorted_Lists.cpp](https://github.com/Murtuzz/The-Daily-Byte-Solutions/blob/main/Linked_List_Week_3/Day_15_Merge_Two_Sorted_Lists.cpp "Day_1_Merge_Two_Sorted_Lists.cpp")
+ 1. [Day_15_Merge_Two_Sorted_Lists.cpp](https://github.com/Murtuzz/The-Daily-Byte-Solutions/blob/main/Linked_List_Week_3/Day_15_Merge_Two_Sorted_Lists.cpp "Day_15_Merge_Two_Sorted_Lists.cpp")
+ 2. [Day_16_Remove_Nth_Node_From_End_Of_List.cpp](https://github.com/Murtuzz/The-Daily-Byte-Solutions/blob/main/Linked_List_Week_3/Day_16_Remove_Nth_Node_From_End_Of_List.cpp "Day_16_Remove_Nth_Node_From_End_Of_List")
+ 3. [Day_17_Remove_Linked_List_Elements.cpp](https://github.com/Murtuzz/The-Daily-Byte-Solutions/blob/main/Linked_List_Week_3/Day_17_Remove_Linked_List_Elements.cpp "Day_17_Remove_Linked_List_Elements")
+
 
 ### WEEK 4: Stacks & Queues
 ### WEEK 5: Trees
