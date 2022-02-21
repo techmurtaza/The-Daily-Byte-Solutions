@@ -31,31 +31,27 @@ bool checkCharacters(string &a, int i ,int j){
 bool validPalindrome(string s) {
     int len = s.length();
     int i = 0,j = len-1;
-    // to check for the first character erase 
-    int flag = false;
   
     while(i<j){
+     
         if(s[i]==s[j]){
           i++,j--;
           continue;
         }
-      // check whether we erased the character or not      
-        if(!flag){
-        // checking by erasing from start
-          if(s[i+1]==s[j]){
-            if(checkCharacters(s,i+1,j))
-              return true;
-            flag = true;
-          }
-          // checking by erasing from end
-          if(s[i]==s[j-1]){
-              if(checkCharacters(s,i,j-1))
-                return true;
-            flag = true;
-          }
-        }
+     
+        if(s[i+1]==s[j]){
+          if(checkCharacters(s,i+1,j))
+            return true;
+       }
+     
+       if(s[i]==s[j-1]){
+           if(checkCharacters(s,i,j-1))
+             return true;
+       }
+     
         return false;
     }
+ 
     return true;
 }
 
